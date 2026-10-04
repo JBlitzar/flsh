@@ -5,6 +5,285 @@
 	(uuid "e4c08aee-4d77-4a34-bdff-4e361939a010")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_US"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "capacitor, US symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.032 -1.27)
+					(mid 0 -0.5572)
+					(end 2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -263,160 +542,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:HOLRT1206-1W-180MR-1%"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HOLRT1206-1W-180MR-1%"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:R1206"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5127775.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Milliohm(毫欧)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "HoLRT1206-1W-180mR-1%"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C5127775"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Current Sense Resistors/Shunt Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HOLRT1206-1W-180MR-1%_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -534,138 +659,478 @@
 		)
 	)
 	(junction
-		(at 68.58 59.69)
+		(at 50.8 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "25fb42ec-6836-4b92-815f-74ce32ef770a")
+		(uuid "05110774-d308-4540-b17a-1e27b3cc7352")
 	)
 	(junction
-		(at 68.58 74.93)
+		(at 38.1 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68365441-b142-4878-9b14-32ebf1ec7d86")
+		(uuid "1f7c20e3-38ae-4573-bc67-3c9aad1f65e5")
 	)
 	(junction
-		(at 68.58 29.21)
+		(at 58.42 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7c817c1b-2f5e-44b7-8929-06e6cb30fafb")
+		(uuid "221e8fca-255e-4004-86b3-be349cc242cb")
 	)
 	(junction
-		(at 68.58 90.17)
+		(at 38.1 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9b51741-e6db-44e4-958c-7b0ed42ac107")
+		(uuid "5131783d-32cf-4518-aca9-6a7b3cafbb06")
 	)
 	(junction
-		(at 68.58 44.45)
+		(at 109.22 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f31db085-14b7-4863-b1ca-0b7c54d3747c")
+		(uuid "63328a4e-48be-415b-937b-f722b8e9796d")
+	)
+	(junction
+		(at 100.33 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7310d2d6-f3ef-4279-b91a-e0fd56c9bbba")
+	)
+	(junction
+		(at 90.17 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a80a5e0-49ca-40c1-a554-e4689729183f")
+	)
+	(junction
+		(at 99.06 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b9827ce-583d-4cf5-a960-b502fad29d4f")
+	)
+	(junction
+		(at 68.58 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7db85ed6-c847-4bc8-8a6d-bdda6fa0f697")
+	)
+	(junction
+		(at 99.06 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c26624c-2233-401e-bde1-6c1c73327c08")
+	)
+	(junction
+		(at 78.74 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c4d1467-e02e-4e91-964c-878de81c933a")
+	)
+	(junction
+		(at 38.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a49e005c-fd70-459c-892c-265aac08d66d")
+	)
+	(junction
+		(at 78.74 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aade1479-0815-4c35-aa56-7e0893a3e4ed")
+	)
+	(junction
+		(at 60.96 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c41e7862-503f-4cc4-9f3d-31ad4bb5384e")
+	)
+	(junction
+		(at 58.42 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb146c4a-8205-403c-b922-759583b85445")
+	)
+	(junction
+		(at 119.38 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce57aa31-5039-4fae-b944-e5b12817b73b")
+	)
+	(junction
+		(at 88.9 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d979b38f-b945-4ae3-989f-cc95e4d21099")
+	)
+	(junction
+		(at 111.76 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9231fff-5dfc-4939-9f5d-49b11cbc60f1")
+	)
+	(junction
+		(at 68.58 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f12a71c1-c62b-4fd1-801a-3586cbcb5e15")
+	)
+	(junction
+		(at 48.26 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53ec664-b78e-448b-b5f2-c3d66a14d586")
 	)
 	(wire
 		(pts
-			(xy 68.58 29.21) (xy 68.58 30.48)
+			(xy 38.1 30.48) (xy 38.1 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "08974258-5915-4c6f-bd5b-de283655b946")
+		(uuid "047520f3-ef93-4e54-a946-9515b2a1501e")
 	)
 	(wire
 		(pts
-			(xy 68.58 43.18) (xy 68.58 44.45)
+			(xy 50.8 40.64) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15bd595d-b479-4422-bef8-46d1ec4e4bc2")
+		(uuid "0ca8ad1a-3182-43a2-83c5-44ee5485474b")
 	)
 	(wire
 		(pts
-			(xy 68.58 74.93) (xy 68.58 76.2)
+			(xy 78.74 30.48) (xy 78.74 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2243c66f-deaf-4fd3-8a56-98f509bbacc7")
+		(uuid "0eddcfa7-c3e4-421c-984d-4eabb0f88f98")
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 68.58 74.93)
+			(xy 100.33 41.91) (xy 100.33 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c520c28-91b2-4a64-a00c-80c4ffcd9d06")
+		(uuid "18adea0f-44a6-4a21-ab7c-032c229b7701")
 	)
 	(wire
 		(pts
-			(xy 68.58 90.17) (xy 68.58 91.44)
+			(xy 60.96 30.48) (xy 58.42 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "511d4aad-e348-4084-916b-3f67bd22336c")
+		(uuid "28289ef0-d397-43d8-adb1-7aa485c12be2")
 	)
 	(wire
 		(pts
-			(xy 68.58 27.94) (xy 68.58 29.21)
+			(xy 109.22 27.94) (xy 111.76 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "77ca4a8b-1adf-4308-b955-8580dade7fc8")
+		(uuid "2bc52c71-d135-4a4d-be02-1ed994ddc86f")
 	)
 	(wire
 		(pts
-			(xy 68.58 58.42) (xy 68.58 59.69)
+			(xy 27.94 27.94) (xy 29.21 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87a872a1-abdc-4f2d-a4a6-6ab6b290ca7c")
+		(uuid "5cb169c7-6e88-477d-9156-2bafd556d9bf")
 	)
 	(wire
 		(pts
-			(xy 68.58 88.9) (xy 68.58 90.17)
+			(xy 88.9 27.94) (xy 88.9 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a82ea7c2-a96e-4188-a91b-4c3a6602a463")
+		(uuid "61e5cdc6-3638-4b3f-87c4-43187756bdee")
 	)
 	(wire
 		(pts
-			(xy 68.58 44.45) (xy 68.58 45.72)
+			(xy 50.8 27.94) (xy 50.8 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa5a0610-8e6a-44cc-8296-fe466fe2030b")
+		(uuid "6446c8fa-cd3b-4d62-a37e-4aebe35823b6")
 	)
 	(wire
 		(pts
-			(xy 68.58 59.69) (xy 68.58 60.96)
+			(xy 38.1 27.94) (xy 38.1 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee6575c9-f319-4e78-928b-6411df798f25")
+		(uuid "64b23863-2489-471d-bdd3-cd7530596f6d")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1f3c43-269e-460e-8955-3082b93e394b")
+	)
+	(wire
+		(pts
+			(xy 120.65 43.18) (xy 120.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2e14d3-cb2f-47e3-a7fc-64c2550c5cf8")
+	)
+	(wire
+		(pts
+			(xy 78.74 41.91) (xy 82.55 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "744b3d10-4c00-4b73-9af1-a2b472e222f5")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 109.22 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7477bd26-49e9-4974-b12c-44bab0e802e3")
+	)
+	(wire
+		(pts
+			(xy 38.1 40.64) (xy 41.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4389ca-38a4-495b-97ba-8d5ba21d4191")
+	)
+	(wire
+		(pts
+			(xy 29.21 40.64) (xy 30.48 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d9e4df2-b16f-47a7-a554-5b37e4a930b4")
+	)
+	(wire
+		(pts
+			(xy 68.58 30.48) (xy 68.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf08c0a-6d68-436d-b124-3f0b822e0f59")
+	)
+	(wire
+		(pts
+			(xy 120.65 30.48) (xy 119.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935a0934-6b32-4812-914f-8b91b02f89b1")
+	)
+	(wire
+		(pts
+			(xy 68.58 27.94) (xy 68.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d48ad8-b5b8-4a5b-90ec-930a79ea2551")
+	)
+	(wire
+		(pts
+			(xy 111.76 27.94) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67d9d4d-fe99-4c4b-8930-2b7e9653cd04")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 113.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab5f765c-4d46-4e3f-8a90-a6bbcc996dbc")
+	)
+	(wire
+		(pts
+			(xy 78.74 27.94) (xy 78.74 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afc3f40d-ee95-4d48-b007-668663445d07")
+	)
+	(wire
+		(pts
+			(xy 99.06 27.94) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d92a9e-a959-4d3d-acc4-d7dbaef1e246")
+	)
+	(wire
+		(pts
+			(xy 49.53 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb803b21-1153-43e1-9eb3-f968e2a8812d")
+	)
+	(wire
+		(pts
+			(xy 48.26 27.94) (xy 50.8 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd764988-d4cd-43f6-a081-365494200f30")
+	)
+	(wire
+		(pts
+			(xy 88.9 27.94) (xy 90.17 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00f82ea-1000-412b-b003-7aebbd60541b")
+	)
+	(wire
+		(pts
+			(xy 90.17 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ebcbe9-7fea-49d9-b1d1-7f30609401fe")
+	)
+	(wire
+		(pts
+			(xy 111.76 41.91) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab40738-8325-4431-8f99-16f8ae7d6124")
+	)
+	(wire
+		(pts
+			(xy 90.17 27.94) (xy 90.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df07be34-cf6a-4c2c-add2-005cc8d2b37f")
+	)
+	(wire
+		(pts
+			(xy 107.95 41.91) (xy 111.76 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df41453d-dfb8-4fb7-835c-b21d34d135f6")
+	)
+	(wire
+		(pts
+			(xy 100.33 30.48) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49492b0-f41a-46f6-b2e0-f01c8f768b04")
+	)
+	(wire
+		(pts
+			(xy 60.96 40.64) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e865e2db-771f-4c35-8c30-9ff79d7b004b")
+	)
+	(wire
+		(pts
+			(xy 48.26 27.94) (xy 48.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1629d2c-7d0b-43ee-b93b-1e4499b78cba")
+	)
+	(wire
+		(pts
+			(xy 29.21 27.94) (xy 29.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6436ccd-1d37-40d1-a041-c4c67cb0d408")
+	)
+	(wire
+		(pts
+			(xy 119.38 27.94) (xy 119.38 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fb1888-a0f5-4df1-b366-5b38a0684c26")
 	)
 	(global_label "LED_VCC"
 		(shape input)
-		(at 48.26 43.18 180)
+		(at 31.75 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -673,9 +1138,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3250dacc-e553-44f7-802f-9aea7ee28a13")
+		(uuid "2c5cbb37-5328-4723-b8cf-1adb39554c6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2315 43.18 0)
+			(at 20.7215 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -689,7 +1154,7 @@
 	)
 	(global_label "LED_VCC"
 		(shape input)
-		(at 48.26 27.94 180)
+		(at 27.94 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -699,7 +1164,7 @@
 		)
 		(uuid "33ed9d43-d754-4ed0-9069-978f7d78016a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2315 27.94 0)
+			(at 16.9115 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -708,313 +1173,12 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "LED_VCC"
-		(shape input)
-		(at 48.26 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75c0ea65-72ab-4789-8887-87d3de8b4ec9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2315 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LED_VCC"
-		(shape input)
-		(at 48.26 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2980d0c-831b-4638-aea2-fb28fffa3db4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2315 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LED_VCC"
-		(shape input)
-		(at 48.26 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c81851f7-7108-4f28-b655-6910fc81c5e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2315 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
-		(at 63.5 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04821aee-9c4a-454b-80d8-af0606eca5b2")
-		(property "Reference" "LED5"
-			(at 64.26 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 64.26 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
-			(at 63.5 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
-			(at 63.5 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OSRAM(欧司朗)"
-			(at 63.5 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 63.5 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C46046287"
-			(at 63.5 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "973ac279-d875-47af-b9df-01d8db290097")
-		)
-		(pin "2"
-			(uuid "7279dc77-de6a-460d-ba68-3dcea8ead7cd")
-		)
-		(pin "1"
-			(uuid "8afe99d5-2c3e-457f-89f9-57dbec957771")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "LED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:HOLRT1206-1W-180MR-1%")
-		(at 53.34 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19a187a8-35b1-4612-be77-7d57ae1e7033")
-		(property "Reference" "U2"
-			(at 53.34 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.18Ω"
-			(at 53.34 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R1206"
-			(at 53.34 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5127775.pdf"
-			(at 53.34 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Milliohm(毫欧)"
-			(at 53.34 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HoLRT1206-1W-180mR-1%"
-			(at 53.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5127775"
-			(at 53.34 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "49a39a8b-48d1-491b-af06-12052e5c1232")
-		)
-		(pin "1"
-			(uuid "12c86479-1473-4f12-81f8-8185f40f959b")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "U2")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 74.93 90)
+		(at 58.42 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1023,9 +1187,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "21f60974-01a0-4d62-a06d-754fcca1ff34")
-		(property "Reference" "#PWR04"
-			(at 74.93 74.93 0)
+		(uuid "0b53142b-75be-4eb1-8dad-59ddffb4612e")
+		(property "Reference" "#PWR02"
+			(at 58.42 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1036,18 +1200,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 74.9299 90)
+			(at 58.42 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 74.93 0)
+			(at 58.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1058,7 +1221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 74.93 0)
+			(at 58.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1069,7 +1232,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 74.93 0)
+			(at 58.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1080,12 +1243,1027 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccbcadf3-2dae-433f-81fb-0afeaaabcaef")
+			(uuid "ffc3f832-34bf-4ed6-af55-875c8d22858d")
 		)
 		(instances
 			(project "flsh"
 				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "#PWR04")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 83.82 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23e3b749-b7f3-490a-a10e-d0f42d28412f")
+		(property "Reference" "LED4"
+			(at 84.58 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 84.58 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 83.82 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 83.82 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 83.82 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 83.82 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 83.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "51481131-5061-48b7-8212-de38d4742fe1")
+		)
+		(pin "2"
+			(uuid "48265a20-3750-417e-8a0c-54b3f5899b7f")
+		)
+		(pin "1"
+			(uuid "5ff56bcc-2ea1-493e-8a45-dd53df18c45a")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 43.18 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c43500c-49e9-4ece-9da0-c5f612a140b1")
+		(property "Reference" "LED7"
+			(at 43.94 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 43.94 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 43.18 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 43.18 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 43.18 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "8367a0f7-3b4a-41f5-87a8-21c639d761be")
+		)
+		(pin "2"
+			(uuid "8dffe179-e3d6-449d-b94d-c55c55e7b543")
+		)
+		(pin "1"
+			(uuid "5ea98d73-cb09-4ebc-95e8-9b9d09d5cc60")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 57.15 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "41e7b3b5-6c01-410f-8eb9-cd1499ccadeb")
+		(property "Reference" "C2"
+			(at 56.896 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 56.896 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 57.15 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 57.15 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4bb655b3-aff0-4080-bf4d-05f6530d5c2c")
+		)
+		(pin "2"
+			(uuid "57a30f12-253c-4876-a1a9-109e5dd3490a")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 96.52 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "42dddc2d-9431-4f75-a9c5-a17f83765e1a")
+		(property "Reference" "C3"
+			(at 96.266 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 96.266 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 96.52 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 96.52 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe6fda77-c541-408f-8398-4772620dfa22")
+		)
+		(pin "2"
+			(uuid "9df26bf7-99fb-402b-a878-900d5add2709")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 45.72 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "628bc867-2aa2-4da8-a8e9-6c5796f3403c")
+		(property "Reference" "C5"
+			(at 45.466 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 45.466 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 45.72 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 45.72 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3581f53a-e043-4660-bd0b-f1d8050b89fe")
+		)
+		(pin "2"
+			(uuid "ef19da52-c2cb-4803-ab40-2c62e2ac3ff8")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 53.34 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "651cbc33-60f7-4e57-8556-581655bf5eb0")
+		(property "Reference" "LED1"
+			(at 54.1 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 54.1 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 53.34 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 53.34 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 53.34 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 53.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 53.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "b571f6d2-6cc6-4945-a69d-1aca590c7eb6")
+		)
+		(pin "2"
+			(uuid "25f9ede8-ceff-4f65-8e68-7c83460cbf34")
+		)
+		(pin "1"
+			(uuid "730dea27-57b2-4fab-badd-b9a6eac02f6a")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67bd5925-fc1a-42c4-b213-03a280e6aedf")
+		(property "Reference" "TP1"
+			(at 34.29 72.8979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.29 75.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbdc82fb-e2af-41e5-a04b-931e61aedf91")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 73.66 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6956163f-60cb-407e-a144-a27e5250d33e")
+		(property "Reference" "LED3"
+			(at 74.42 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 74.42 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 73.66 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 73.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 73.66 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 73.66 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 73.66 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3b451bd9-1b41-4118-8159-f443bf426d05")
+		)
+		(pin "2"
+			(uuid "7482c6ba-5ff3-4546-a727-0aaa1d2af866")
+		)
+		(pin "1"
+			(uuid "1bf434f7-bdfd-4bac-9dd8-d163742592cd")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 33.02 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f1fc621-c6a5-45f1-b2ef-5d8148d6b07e")
+		(property "Reference" "LED6"
+			(at 33.78 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 33.78 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 33.02 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 33.02 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 33.02 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 33.02 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 33.02 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e9e0956e-5db6-4db1-9032-fb176ee53cad")
+		)
+		(pin "2"
+			(uuid "878fc35b-12d6-43a4-90f9-cb675a23ed43")
+		)
+		(pin "1"
+			(uuid "2bab0986-7d18-4e5b-b20c-61877cd2a152")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 104.14 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb2d739-3dba-4b38-9b8c-ae4b9044c019")
+		(property "Reference" "LED8"
+			(at 104.9 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 104.9 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 104.14 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 104.14 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 104.14 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 104.14 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 104.14 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9fdf74bf-4131-4553-87a5-b59437549ecb")
+		)
+		(pin "2"
+			(uuid "3c270a98-555e-4215-b859-32f3b09f4921")
+		)
+		(pin "1"
+			(uuid "491a987d-8e13-4b78-b1ca-214ac2fea27c")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -1102,8 +2280,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "23062cbb-58f2-47a6-b41d-ca0130962f68")
-		(property "Reference" "LED1"
+		(uuid "a768f32a-4c5c-4606-a569-a3275603dfde")
+		(property "Reference" "LED2"
 			(at 64.26 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1190,821 +2368,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "ea04765e-acbe-4694-a49a-65d978d606c4")
+			(uuid "c5ee3fc5-776f-498f-b870-efaf43e5f698")
 		)
 		(pin "2"
-			(uuid "629c0bbf-b045-451f-962e-30f575c89bb2")
+			(uuid "3cb49b97-d4ad-4c7c-9f59-fd0a86449e4e")
 		)
 		(pin "1"
-			(uuid "7d9ff3bc-cea4-4b1c-a09d-1aab1ad28cfa")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:HOLRT1206-1W-180MR-1%")
-		(at 53.34 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ae33bc3-5013-43ee-97ae-e668c6e81b12")
-		(property "Reference" "U3"
-			(at 53.34 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.18Ω"
-			(at 53.34 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R1206"
-			(at 53.34 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5127775.pdf"
-			(at 53.34 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Milliohm(毫欧)"
-			(at 53.34 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HoLRT1206-1W-180mR-1%"
-			(at 53.34 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5127775"
-			(at 53.34 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "977a19ec-a15a-46e9-9510-027f82cc79e2")
-		)
-		(pin "1"
-			(uuid "a0712352-8ee1-48d4-b688-1ebf66146c34")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
-		(at 63.5 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6792111d-797e-421c-ba45-44f9fcf87663")
-		(property "Reference" "LED3"
-			(at 64.26 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 64.26 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
-			(at 63.5 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
-			(at 63.5 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OSRAM(欧司朗)"
-			(at 63.5 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 63.5 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C46046287"
-			(at 63.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9b7abd52-5733-41d4-9126-e0b976af532d")
-		)
-		(pin "2"
-			(uuid "7157fcd7-4160-47bd-b192-9c423d3376a0")
-		)
-		(pin "1"
-			(uuid "be9f875a-aab0-4d0a-a002-5f614e6e1b15")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:HOLRT1206-1W-180MR-1%")
-		(at 53.34 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e8963e8-a9fa-4d25-8407-b04cfe3145b4")
-		(property "Reference" "U1"
-			(at 53.34 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.18Ω"
-			(at 53.34 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R1206"
-			(at 53.34 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5127775.pdf"
-			(at 53.34 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Milliohm(毫欧)"
-			(at 53.34 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HoLRT1206-1W-180mR-1%"
-			(at 53.34 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5127775"
-			(at 53.34 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "08752717-b498-41c0-b362-44c8393021aa")
-		)
-		(pin "1"
-			(uuid "19c297c1-a8be-4b66-9fe5-909b6584f44e")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 68.58 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b8b7454-b2d3-44af-be07-59941f95388c")
-		(property "Reference" "#PWR05"
-			(at 74.93 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa71d9bd-73a9-4279-a3cb-dded4c540964")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 68.58 29.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ceaa66d-a12f-4981-9838-e4f8f4b9de7d")
-		(property "Reference" "#PWR01"
-			(at 74.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b80b85b-6427-4931-b6dd-43cdf1f87187")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 68.58 59.69 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8328f1c2-984e-42b1-b9e9-a090c8fecd87")
-		(property "Reference" "#PWR03"
-			(at 74.93 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dfcd852-b702-4f16-b705-4f4757778f48")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:HOLRT1206-1W-180MR-1%")
-		(at 53.34 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97bfefcd-0fe8-44f3-8d44-e22b80198745")
-		(property "Reference" "U5"
-			(at 53.34 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.18Ω"
-			(at 53.34 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:R1206"
-			(at 53.34 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5127775.pdf"
-			(at 53.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Milliohm(毫欧)"
-			(at 53.34 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HoLRT1206-1W-180mR-1%"
-			(at 53.34 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5127775"
-			(at 53.34 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b156796-fcd5-411c-8f4b-2fd06a799a82")
-		)
-		(pin "1"
-			(uuid "728cabd5-8558-443c-8f6f-0e0573ad5715")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
-		(at 63.5 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "985a6f63-7c33-4dd4-ba5d-d0ad69ed0092")
-		(property "Reference" "LED2"
-			(at 64.26 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 64.26 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
-			(at 63.5 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
-			(at 63.5 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "OSRAM(欧司朗)"
-			(at 63.5 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 63.5 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C46046287"
-			(at 63.5 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "4e4396b7-4391-43b5-a9ac-fa2d9f1ae921")
-		)
-		(pin "2"
-			(uuid "9c069d3a-c5ef-456b-a29d-dcdcbedd8e8d")
-		)
-		(pin "1"
-			(uuid "5ed2234c-6a1c-4db3-90df-0ff78008c8fb")
+			(uuid "a534e9f2-5eaa-46a4-9e37-c01e97cf5a40")
 		)
 		(instances
 			(project "flsh"
@@ -2016,19 +2386,19 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:HOLRT1206-1W-180MR-1%")
-		(at 53.34 73.66 0)
+		(lib_id "Device:C_US")
+		(at 86.36 41.91 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "ac708a5c-1f6e-4f03-9eee-de72dbbb295b")
-		(property "Reference" "U4"
-			(at 53.34 67.31 0)
+		(uuid "a83b3491-d5c9-4d01-9086-0700384a3236")
+		(property "Reference" "C7"
+			(at 86.106 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2037,8 +2407,8 @@
 				)
 			)
 		)
-		(property "Value" "0.18Ω"
-			(at 53.34 69.85 0)
+		(property "Value" "C_US"
+			(at 86.106 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2047,123 +2417,8 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:R1206"
-			(at 53.34 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5127775.pdf"
-			(at 53.34 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Milliohm(毫欧)"
-			(at 53.34 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HoLRT1206-1W-180mR-1%"
-			(at 53.34 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5127775"
-			(at 53.34 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4d2bf070-2081-4ad6-8e83-edc0b497dbf0")
-		)
-		(pin "1"
-			(uuid "b3c19288-61ca-4071-a286-cdfbbac36820")
-		)
-		(instances
-			(project "flsh"
-				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 68.58 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae1401db-0301-4063-9e06-fe5583b1afd3")
-		(property "Reference" "#PWR02"
-			(at 74.93 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 44.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 44.45 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 86.36 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2174,7 +2429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 44.45 0)
+			(at 86.36 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,8 +2439,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 44.45 0)
+		(property "Description" "capacitor, US symbol"
+			(at 86.36 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2196,12 +2451,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b8c0aba-7958-4b45-9b0b-3eae90e5eb52")
+			(uuid "a41e2fba-ff77-4cde-8135-42956f9c7d81")
+		)
+		(pin "2"
+			(uuid "4e6d6a41-3d5a-4f54-b6d0-7a4a846b09dc")
 		)
 		(instances
 			(project "flsh"
 				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "#PWR02")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2209,7 +2467,7 @@
 	)
 	(symbol
 		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
-		(at 63.5 72.39 0)
+		(at 114.3 26.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2218,9 +2476,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b432497b-bfba-4f56-9a2d-fcde0b437e5b")
-		(property "Reference" "LED4"
-			(at 64.26 64.77 0)
+		(uuid "a89da154-6926-4181-a927-e80582eba7da")
+		(property "Reference" "LED9"
+			(at 115.06 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2230,7 +2488,7 @@
 			)
 		)
 		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 64.26 67.31 0)
+			(at 115.06 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2240,7 +2498,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
-			(at 63.5 83.82 0)
+			(at 114.3 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2509,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
-			(at 63.5 86.36 0)
+			(at 114.3 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +2520,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 72.39 0)
+			(at 114.3 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +2531,7 @@
 			)
 		)
 		(property "Manufacturer" "OSRAM(欧司朗)"
-			(at 63.5 88.9 0)
+			(at 114.3 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2284,7 +2542,7 @@
 			)
 		)
 		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
-			(at 63.5 91.44 0)
+			(at 114.3 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2295,7 +2553,7 @@
 			)
 		)
 		(property "LCSC Part" "C46046287"
-			(at 63.5 93.98 0)
+			(at 114.3 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2306,18 +2564,611 @@
 			)
 		)
 		(pin "3"
-			(uuid "71da074b-e1d7-4761-bc02-f911d865ed7a")
+			(uuid "906f76ab-a5d6-4b63-81af-256811ce4179")
 		)
 		(pin "2"
-			(uuid "2f3b7c68-f97a-45d2-9bd6-9a3b549df77d")
+			(uuid "b78aefb2-0af3-4fb2-b4e3-60fb2f6b3c49")
 		)
 		(pin "1"
-			(uuid "540ed785-4f8b-408e-a850-d641b14f8201")
+			(uuid "26d2de92-a939-4b18-b1a8-b1516f58e0a3")
 		)
 		(instances
 			(project "flsh"
 				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
-					(reference "LED4")
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 116.84 43.18 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "afeaac9e-d8ed-46c7-a639-773805531bbe")
+		(property "Reference" "C4"
+			(at 116.586 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 116.586 38.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 116.84 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 116.84 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "886deebf-b35d-4d00-a4ce-cac28022dc21")
+		)
+		(pin "2"
+			(uuid "14cfde7a-98c9-471d-bcea-31a176adbf92")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 64.77 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b1d1adfb-07e4-4936-8b78-454667146261")
+		(property "Reference" "C6"
+			(at 64.516 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 64.516 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 64.77 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b687019-703c-42a6-99ee-468e6d8de7f7")
+		)
+		(pin "2"
+			(uuid "f5c8e9cb-5be7-4830-85ad-f9da5d2dfdda")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 34.29 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cb4d0c3e-638e-43d4-ab68-0952bab0ddfc")
+		(property "Reference" "C1"
+			(at 34.036 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 34.036 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 34.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 34.29 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb84f119-2260-459b-87fb-b42dbe2faff9")
+		)
+		(pin "2"
+			(uuid "acd92c1f-e3cf-4668-bae9-e6bb2ff6ad3e")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_US")
+		(at 104.14 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d5461078-5c77-4eeb-b7c3-31be38511389")
+		(property "Reference" "C8"
+			(at 103.886 34.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_US"
+			(at 103.886 36.83 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "capacitor, US symbol"
+			(at 104.14 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5221c576-fb1b-480d-8ff7-acbd02368340")
+		)
+		(pin "2"
+			(uuid "0558d7a6-6795-4c21-8006-520a344b19df")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e9ee54-1972-438e-89e0-a2824909dd53")
+		(property "Reference" "TP2"
+			(at 60.96 76.7079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 79.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 63.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "884df85c-e14c-4e3e-bcf8-43a858112704")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:GWPUSTA1.PM-PBQB-XX52-1-1050-R18")
+		(at 93.98 26.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee84c5d0-06e0-4e49-9234-5d7201764540")
+		(property "Reference" "LED5"
+			(at 94.74 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 94.74 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
+			(at 93.98 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C46046287.pdf"
+			(at 93.98 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "OSRAM(欧司朗)"
+			(at 93.98 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GW PUSTA1.PM-PBQB-XX52-1-1050-R18"
+			(at 93.98 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46046287"
+			(at 93.98 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2bdf3602-4d6e-47e3-a131-ab73ff0bc727")
+		)
+		(pin "2"
+			(uuid "8102be23-6d31-4444-ad17-21ed9583dc43")
+		)
+		(pin "1"
+			(uuid "964c47f1-0d67-4c9e-a1e9-1e8f9fdba37a")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef714b60-aed9-4bce-9e4e-dc33b06cd593")
+		(property "Reference" "#PWR01"
+			(at 119.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f439da77-34b3-44b3-be7d-9b61b1a746c5")
+		)
+		(instances
+			(project "flsh"
+				(path "/e4c08aee-4d77-4a34-bdff-4e361939a010"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
