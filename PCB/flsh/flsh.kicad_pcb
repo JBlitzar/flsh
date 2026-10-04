@@ -542,6 +542,18 @@
 			(uuid "b4cc90da-f7fa-4bca-aeb7-2d897c8ded38")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
@@ -1112,6 +1124,18 @@
 			(uuid "fcbeb89f-7627-4822-812a-2cd27d5827f0")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
 		(layer "F.Cu")
@@ -1365,6 +1389,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1786,6 +1811,18 @@
 			(uuid "b8315fde-2995-4a9f-8a9c-129d636de75e")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -2148,6 +2185,18 @@
 			(uuid "3a82a7f0-7c89-4418-ad51-df24518664ee")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
 		(layer "F.Cu")
@@ -2400,6 +2449,18 @@
 			(uuid "0bd49425-78fd-434e-8eed-772c632b1dba")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
@@ -2811,6 +2872,18 @@
 			(uuid "0a8d3fa0-ddf4-4407-8a79-8ea0ac3a5833")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "easyeda2kicad:LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18"
 		(layer "F.Cu")
@@ -3063,6 +3136,18 @@
 			(uuid "b1f22a2b-24b4-4159-aca7-a09f82997aa3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
@@ -3633,6 +3718,18 @@
 			(uuid "1abba7db-9fa7-4b33-b923-6d5e878a0892")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/LED_GW_CSHPM1.stp"
+			(opacity 1.0)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1.3 1.3 1.3)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
