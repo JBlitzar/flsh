@@ -5,6 +5,129 @@
 	(uuid "08418876-6758-4030-87ef-cfeed83d90aa")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:0805B104K250NT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3162,6 +3285,18 @@
 		(uuid "d2f63c30-4746-4eea-9917-b6f4788e6427")
 	)
 	(junction
+		(at 58.42 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d606ac69-3654-49d3-8e43-977ab70b072f")
+	)
+	(junction
+		(at 243.84 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef0b2bc3-4950-484f-8658-6682d70093d1")
+	)
+	(junction
 		(at 66.04 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3219,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 80.01) (xy 66.04 80.01)
+			(xy 57.15 80.01) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3246,6 +3381,16 @@
 			(type default)
 		)
 		(uuid "595b39f5-78c6-491b-9c68-b80a9b3313b8")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 66.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3c4190-65a3-44b7-9b0c-8f872a9baf5e")
 	)
 	(wire
 		(pts
@@ -3592,6 +3737,164 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f39035c-f8ac-437a-9a84-6c191a802d9f")
+		(property "Reference" "TP4"
+			(at 246.38 103.3779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 105.9179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f548e166-0051-43c1-aca7-330b765774fe")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 50.8 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11a21a18-9b93-42fa-a479-9e185b107275")
+		(property "Reference" "TP3"
+			(at 53.34 98.2979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 53.34 100.8379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75504134-5dd9-4917-a731-bade7f61d97d")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 104.14 105.41 0)
 		(unit 1)
@@ -3906,7 +4209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c388c5d-163e-4b9b-89b8-0fe90746991f")
-		(property "Reference" "CIN"
+		(property "Reference" "CIN1"
 			(at 68.072 81.788 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4003,7 +4306,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "CIN")
+					(reference "CIN1")
 					(unit 1)
 				)
 			)
@@ -4326,7 +4629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45cedff5-240e-4f07-ab0a-f37348249c2d")
-		(property "Reference" "Rsense"
+		(property "Reference" "Rsense1"
 			(at 204.47 106.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4726,85 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "Rsense")
+					(reference "Rsense1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c529ccd-20ce-4db5-a3aa-dc9cd9e7e24a")
+		(property "Reference" "#PWR011"
+			(at 243.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f4340f2-0d89-41e0-9e85-468d83791f46")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4508,6 +4889,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587e6326-08bc-4cf3-a70f-2a1ec03780bb")
+		(property "Reference" "TP2"
+			(at 246.38 79.2479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 81.7879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5789585-0ac5-4fd6-81bf-a6e4c9df5517")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:CC0805JRNPO9BN100")
 		(at 180.34 106.68 90)
 		(unit 1)
@@ -4519,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c0ca216-b07b-4850-b5e2-77cbc4b6681f")
-		(property "Reference" "CFILT"
+		(property "Reference" "CFILT1"
 			(at 184.15 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4616,7 +5076,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "CFILT")
+					(reference "CFILT1")
 					(unit 1)
 				)
 			)
@@ -4843,7 +5303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "744cbb9a-2913-46e5-b92c-1343ba7f9ac3")
-		(property "Reference" "RCOMP"
+		(property "Reference" "RCOMP1"
 			(at 97.79 123.1899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,7 +5400,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "RCOMP")
+					(reference "RCOMP1")
 					(unit 1)
 				)
 			)
@@ -5019,6 +5479,85 @@
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 58.42 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc183e6-d841-4d3e-a4c4-4478d17d09fd")
+		(property "Reference" "TP1"
+			(at 60.96 75.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 77.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D4.0mm"
+			(at 63.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 58.42 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f497ce35-2529-413f-93b5-fd0c3ce8438b")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -5385,7 +5924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba15f948-6bb3-44bc-a405-58b301e6fb51")
-		(property "Reference" "Cbyp"
+		(property "Reference" "Cbyp1"
 			(at 93.98 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,7 +6021,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "Cbyp")
+					(reference "Cbyp1")
 					(unit 1)
 				)
 			)
@@ -5500,7 +6039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5f66d08-fe7a-4b17-b5a0-418889c0a723")
-		(property "Reference" "RFILT"
+		(property "Reference" "RFILT1"
 			(at 194.31 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5595,7 +6134,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "RFILT")
+					(reference "RFILT1")
 					(unit 1)
 				)
 			)
@@ -5917,7 +6456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9823d04-6cf0-4064-a814-29df38b89246")
-		(property "Reference" "Cout"
+		(property "Reference" "Cout1"
 			(at 247.65 85.7549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6553,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "Cout")
+					(reference "Cout1")
 					(unit 1)
 				)
 			)
@@ -6139,6 +6678,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 50.8 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9e0cdb4-ecfa-46a9-b33b-c127aa79d3ba")
+		(property "Reference" "#PWR010"
+			(at 50.8 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa9369df-96c0-4821-a923-37637d34711c")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:CC0805KRX7R9BB154")
 		(at 95.25 115.57 90)
 		(unit 1)
@@ -6150,7 +6767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea16908-7bd0-4889-b1be-4f491df4a8a2")
-		(property "Reference" "CComp"
+		(property "Reference" "CComp1"
 			(at 99.06 114.2999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +6864,7 @@
 		(instances
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
-					(reference "CComp")
+					(reference "CComp1")
 					(unit 1)
 				)
 			)

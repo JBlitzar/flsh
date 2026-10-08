@@ -519,7 +519,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -661,7 +661,7 @@
         "uuid": "08418876-6758-4030-87ef-cfeed83d90aa"
       }
     ],
-    "used_designators": "L1,Rfadj1,RFB2-3,R1,CIN1,Q1,C1,#PWR1-9,U1-2",
+    "used_designators": "TP1-4,Rsense1,RCOMP1,Cout1,CFILT1,RFILT1,L1,Rfadj1,RFB2-3,R1,Cbyp1,CComp1,CIN1,Q1,U1-2,C1,#PWR1-11",
     "variants": []
   },
   "sheets": [
