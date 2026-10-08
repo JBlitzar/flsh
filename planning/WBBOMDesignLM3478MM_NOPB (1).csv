@@ -1,17 +1,17 @@
 ﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
 Rfb1,Vishay-Dale,CRCW0402976RFKED,1,0.01,3,Resistance: 976 Ω  Tolerance: 1.0%  Power: 63 mW  
 Rfb2,Vishay-Dale,CRCW040221K0FKED,1,0.01,3,Resistance: 21 kΩ  Tolerance: 1.0%  Power: 63 mW  
-Rfadj,Yageo,RC0201FR-0786K6L,1,0.01,2.08,Resistance: 86.6 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rfadj,Yageo,RC0201FR-07105KL,1,0.01,2.08,Resistance: 105 kΩ  Tolerance: 1.0%  Power: 50 mW  
 U1,Texas Instruments,LM3478MM/NOPB,1,1.445,23.6,
-Rcomp,Vishay-Dale,CRCW04023K24FKED,1,0.01,3,Resistance: 3.24 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rcomp,Vishay-Dale,CRCW04022K21FKED,1,0.01,3,Resistance: 2.21 kΩ  Tolerance: 1.0%  Power: 63 mW  
 D1,Fairchild Semiconductor,SS24FL,1,0.09,11.7,Type: Schottky  VRRM: 40 V  Io: 2 A  
 Cin,Nichicon,UUD1E471MNL1GS,2,0.23,159.9,Cap: 470 µF  Total Derated Cap: 940 µF  VDC: 25 V  ESR: 90 mΩ  Package: 10x10  
 Cfilt,Yageo,CC0805JRNPO9BN100,1,0.01,6.75,Cap: 10 pF  Total Derated Cap: 10 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
-Ccomp,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+Ccomp,MuRata,GRM188R71C154KA01D,1,0.02,4.68,Cap: 150 nF  Total Derated Cap: 150 nF  VDC: 16 V  ESR: 20 mΩ  Package: 0603  
 L1,Coilcraft,XAL1010-562MEB,1,1.71,159.6,L: 5.6 µH  DCR: 6.3 mΩ  IDC: 21.2 A  
 Rfilt,Vishay-Dale,CRCW0402100RFKED,1,0.01,3,Resistance: 100 Ω  Tolerance: 1.0%  Power: 63 mW  
-Ccomp2,Kemet,C0805C472K5RACTU,1,0.01,6.75,Cap: 4.7 nF  Total Derated Cap: 4.7 nF  VDC: 50 V  ESR: 279 mΩ  Package: 0805  
+Ccomp2,MuRata,GRM155R71H822KA88D,1,0.01,3,Cap: 8.2 nF  Total Derated Cap: 8.2 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0402  
 Cout,Panasonic,EEHZA1H101P,2,1.43,159.9,Cap: 100 µF  Total Derated Cap: 200 µF  VDC: 50 V  ESR: 28 mΩ  Package: 10x10.2  
 Cbyp,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
 M1,Infineon Technologies,IAUCN04S7L028ATMA1,1,0.39601,31.92,VdsMax: 40 V  IdsMax: 100 Amps  
-Rsense,Panasonic,ERJ-M1WTF4M0U,1,0.17,43.16,Resistance: 4 mΩ  Tolerance: 1.0%  Power: 1 W  
+Rsense,Stackpole Electronics Inc,CSNL1206FT3L00,1,0.19,10.92,Resistance: 3 mΩ  Tolerance: 1.0%  Power: 1 W  
