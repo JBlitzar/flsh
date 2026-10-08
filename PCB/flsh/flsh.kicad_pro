@@ -539,6 +539,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -661,7 +662,7 @@
         "uuid": "08418876-6758-4030-87ef-cfeed83d90aa"
       }
     ],
-    "used_designators": "TP1-4,Rsense1,RCOMP1,Cout1,CFILT1,RFILT1,L1,Rfadj1,RFB2-3,R1,Cbyp1,CComp1,CIN1,Q1,U1-2,C1,#PWR1-11",
+    "used_designators": "TP1-4,RCOMP1,CFILT1,Rsense1,Cbyp1,Cout1,L1,RFILT1,Rfadj1,RFB2-3,R1,#PWR1-11,U1-2,C1,CComp1,CIN1,Q1",
     "variants": []
   },
   "sheets": [
