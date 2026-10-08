@@ -12,7 +12,7 @@ C3029011 as a potential alternative inductor
 
 TODO on the low ESR caps:
  - if i need them
- - if I need two on each or one and two or what
+ - if I really need two on each VIN and IOUT or one on one and two on the other or what
  - if I can put them on another board
 
 other potential options:
