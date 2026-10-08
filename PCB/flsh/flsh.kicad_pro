@@ -657,17 +657,17 @@
     "top_level_sheets": [
       {
         "filename": "flsh.kicad_sch",
-        "name": "Root",
-        "uuid": "e4c08aee-4d77-4a34-bdff-4e361939a010"
+        "name": "",
+        "uuid": "08418876-6758-4030-87ef-cfeed83d90aa"
       }
     ],
-    "used_designators": "TP1-2,C1-8,#PWR1-3,LED1-9",
+    "used_designators": "L1,Rfadj1,RFB2-3,R1,CIN1,Q1,C1,#PWR1-9,U1-2",
     "variants": []
   },
   "sheets": [
     [
-      "e4c08aee-4d77-4a34-bdff-4e361939a010",
-      "Root"
+      "08418876-6758-4030-87ef-cfeed83d90aa",
+      ""
     ]
   ],
   "text_variables": {},
