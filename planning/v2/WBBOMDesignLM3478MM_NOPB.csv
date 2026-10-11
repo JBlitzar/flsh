@@ -1,0 +1,17 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfb1,Vishay-Dale,CRCW04021K00FKED,1,0.01,3,Resistance: 1 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfb2,Yageo,RC0201FR-0718K7L,1,0.01,2.08,Resistance: 18.7 kΩ  Tolerance: 1.0%  Power: 50 mW  
+Rfadj,Vishay-Dale,CRCW040226K7FKED,1,0.01,3,Resistance: 26.7 kΩ  Tolerance: 1.0%  Power: 63 mW  
+U1,Texas Instruments,LM3478MM/NOPB,1,1.445,23.6,
+Rcomp,Vishay-Dale,CRCW04029K09FKED,1,0.01,3,Resistance: 9.09 kΩ  Tolerance: 1.0%  Power: 63 mW  
+D1,Fairchild Semiconductor,SS24FL,1,0.09,11.7,Type: Schottky  VRRM: 40 V  Io: 2 A  
+Cin,Nichicon,UUD1C101MCL1GS,2,0.09,79.98,Cap: 100 µF  Total Derated Cap: 200 µF  VDC: 16 V  ESR: 440 mΩ  Package: 6.3x5.8  
+Cfilt,Yageo,CC0805JRNPO9BN100,1,0.01,6.75,Cap: 10 pF  Total Derated Cap: 10 pF  VDC: 50 V  ESR: 0 Ω  Package: 0805  
+Ccomp,MuRata,GRM155R71C123KA01D,1,0.01,3,Cap: 12 nF  Total Derated Cap: 12 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+L1,Vishay-Dale,IHLP2525CZER8R2M01,1,0.61,75.04,L: 8.2 µH  DCR: 68 mΩ  IDC: 7.5 A  
+Rfilt,Vishay-Dale,CRCW0402100RFKED,1,0.01,3,Resistance: 100 Ω  Tolerance: 1.0%  Power: 63 mW  
+Ccomp2,TDK,CGA2B2X7R1H681K050BA,1,0.01,3,Cap: 680 pF  Total Derated Cap: 680 pF  VDC: 50 V  ESR: 3.08 Ω  Package: 0402  
+Cout,Panasonic,EEHZA1H101P,2,1.43,159.9,Cap: 100 µF  Total Derated Cap: 200 µF  VDC: 50 V  ESR: 28 mΩ  Package: 10x10.2  
+Cbyp,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+M1,Texas Instruments,CSD18543Q3A,1,0.21,18.49,VdsMax: 60 V  IdsMax: 35 Amps  
+Rsense,Stackpole Electronics Inc,CSR1206FK10L0,1,0.11,10.92,Resistance: 10 mΩ  Tolerance: 1.0%  Power: 500 mW  

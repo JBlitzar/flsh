@@ -3279,6 +3279,12 @@
 		(uuid "7b4cfbe9-e2ee-45cc-86d2-c01e1f04da35")
 	)
 	(junction
+		(at 264.16 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9049b134-2022-471a-aee2-33f3533df4d8")
+	)
+	(junction
 		(at 76.2 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3394,7 +3400,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 83.82) (xy 243.84 83.82)
+			(xy 271.78 83.82) (xy 264.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3511,6 +3517,16 @@
 			(type default)
 		)
 		(uuid "d8fe35d8-2208-43dc-9ec2-f311caab84c3")
+	)
+	(wire
+		(pts
+			(xy 264.16 83.82) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e320bcf4-853a-4e9b-abd6-cecd22305d11")
 	)
 	(wire
 		(pts
@@ -3714,7 +3730,7 @@
 	)
 	(global_label "IOUT"
 		(shape input)
-		(at 254 83.82 0)
+		(at 271.78 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3724,7 +3740,7 @@
 		)
 		(uuid "deb68b3d-f8da-43e0-9fe6-125e382c1a9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.2186 83.82 0)
+			(at 278.9986 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,6 +5423,121 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:EEHZA1H101P")
+		(at 264.16 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e103a27-b2a1-4da8-8b9d-976c16ad5134")
+		(property "Reference" "Cout2"
+			(at 267.97 85.7549 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "EEHZA1H101P"
+			(at 267.97 88.2949 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:CAP-SMD_BD10.0-L10.3-W10.3-FD"
+			(at 264.16 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_PANASONIC_EEHZA1H101P_100uF-101-20-50V_C109086.html"
+			(at 264.16 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "PANASONIC(松下)"
+			(at 264.16 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "EEHZA1H101P"
+			(at 264.16 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C109086"
+			(at 264.16 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6693609c-bcbe-42f7-ae6c-9699dd7fcc58")
+		)
+		(pin "2"
+			(uuid "51ce2b16-3ac1-47e9-b492-09bc69675e25")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "Cout2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 90.17 0)
 		(unit 1)
@@ -6248,6 +6379,84 @@
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
 					(reference "RFB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1001215-3e83-441e-9118-71853038d04d")
+		(property "Reference" "#PWR012"
+			(at 264.16 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0eda0ce9-be8b-436d-bccc-858d07d4accf")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

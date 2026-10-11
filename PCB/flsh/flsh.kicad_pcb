@@ -218,6 +218,7 @@
 		)
 		(path "/3e756026-ac39-40e2-b02b-9d876eb7fa72")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -544,6 +545,7 @@
 		)
 		(path "/5c0ca216-b07b-4850-b5e2-77cbc4b6681f")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -837,6 +839,7 @@
 		)
 		(path "/744cbb9a-2913-46e5-b92c-1343ba7f9ac3")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1086,6 +1089,7 @@
 		)
 		(path "/a911bacb-0037-46e4-805e-b5eea42fd1f8")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1105,7 +1109,7 @@
 			(uuid "30d46ce1-4587-4fd8-ad8f-b82d3a948330")
 		)
 		(fp_line
-			(start -1.81 -0.9)
+			(start -1.810001 -0.9)
 			(end -0.399999 -0.9)
 			(stroke
 				(width 0.15)
@@ -1126,7 +1130,7 @@
 		)
 		(fp_line
 			(start 0.399999 0.9)
-			(end 1.81 0.9)
+			(end 1.810001 0.9)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1168,7 +1172,7 @@
 		(fp_arc
 			(start -1.96 -0.75)
 			(mid -1.916066 -0.856066)
-			(end -1.81 -0.9)
+			(end -1.810001 -0.9)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1179,7 +1183,7 @@
 		(fp_arc
 			(start 1.96 0.75)
 			(mid 1.916066 0.856066)
-			(end 1.81 0.9)
+			(end 1.810001 0.9)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1379,6 +1383,7 @@
 		)
 		(path "/2bc57164-9ff5-49c5-8b63-c8f6274fae26")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1648,6 +1653,7 @@
 		)
 		(path "/45cedff5-240e-4f07-ab0a-f37348249c2d")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1866,6 +1872,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/11a21a18-9b93-42fa-a479-9e185b107275")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2016,6 +2023,7 @@
 		)
 		(path "/ba15f948-6bb3-44bc-a405-58b301e6fb51")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2309,6 +2317,7 @@
 		)
 		(path "/fea16908-7bd0-4889-b1be-4f491df4a8a2")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2530,7 +2539,7 @@
 			)
 		)
 		(property "Value" "105kΩ"
-			(at -0.000001 4 70)
+			(at -0.000002 4 70)
 			(layer "F.Fab")
 			(uuid "ca77fac4-280a-41e3-9379-56157da114d8")
 			(effects
@@ -2602,6 +2611,7 @@
 		)
 		(path "/40493663-92b3-4e7a-8b76-ee1ec86dd8d1")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2820,6 +2830,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/587e6326-08bc-4cf3-a70f-2a1ec03780bb")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2970,6 +2981,7 @@
 		)
 		(path "/f98b7f40-90ea-4318-8c96-85e17925180d")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3319,6 +3331,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/8fc183e6-d841-4d3e-a4c4-4478d17d09fd")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3458,6 +3471,7 @@
 		)
 		(path "/cc3293fe-1773-4ae2-be20-e5c72dd79cb8")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3707,6 +3721,7 @@
 		)
 		(path "/6dfb0f83-833a-4f4c-a7b4-a82c96679ae2")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4034,6 +4049,7 @@
 		)
 		(path "/f9823d04-6cf0-4064-a814-29df38b89246")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4360,6 +4376,7 @@
 		)
 		(path "/df5a1b79-80d4-4cf9-b962-34132f9cc23d")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4601,6 +4618,7 @@
 		)
 		(path "/2c388c5d-163e-4b9b-89b8-0fe90746991f")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4897,6 +4915,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0f39035c-f8ac-437a-9a84-6c191a802d9f")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5036,6 +5055,7 @@
 		)
 		(path "/c5f66d08-fe7a-4b17-b5a0-418889c0a723")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5285,6 +5305,7 @@
 		)
 		(path "/29945959-9a77-47cf-9c54-814e69849bcf")
 		(sheetname "/")
+		(sheetfile "flsh.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6450,6 +6471,41 @@
 		(uuid "9956f578-65f1-451d-8cba-983a63a1458a")
 	)
 	(zone
+		(net "IOUT")
+		(layer "F.Cu")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(fill yes
+			(island_removal_mode 1)
+		)
+		(polygon
+			(pts
+				(xy 164.513079 49.129814) (xy 165.220186 49.836921) (xy 165.853553 49.203553) (xy 166 48.85) (xy 166.5 48.477105)
+				(xy 165.5 46.744718) (xy 164.5 48.477105) (xy 165 48.85)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 165.505849 46.757988) (xy 165.510133 46.762272) (xy 166.494799 48.468095) (xy 166.495967 48.476973)
+				(xy 166.491661 48.483323) (xy 166 48.849999) (xy 165.999999 48.850001) (xy 165.854443 49.201402)
+				(xy 165.851907 49.205198) (xy 165.228458 49.828647) (xy 165.220185 49.832074) (xy 165.211912 49.828647)
+				(xy 164.523883 49.140618) (xy 164.520456 49.132345) (xy 164.523883 49.124072) (xy 164.526323 49.122202)
+				(xy 165 48.85) (xy 164.679144 48.610709) (xy 164.508338 48.483323) (xy 164.503755 48.47563) (xy 164.505199 48.468097)
+				(xy 165.489867 46.762271) (xy 165.496971 46.75682)
+			)
+		)
+	)
+	(zone
 		(net "VIN")
 		(layer "F.Cu")
 		(uuid "46f16492-049c-4081-b5fd-deb65d1e23db")
@@ -6556,41 +6612,6 @@
 				(xy 146.193243 30.875751) (xy 146.198478 30.874711) (xy 147.031045 30.727907) (xy 147.036311 30.727097)
 				(xy 147.874477 30.616749) (xy 147.879835 30.616163) (xy 148.721981 30.542485) (xy 148.72736 30.542132)
 				(xy 149.571918 30.505257) (xy 149.577327 30.50514) (xy 150.422674 30.50514)
-			)
-		)
-	)
-	(zone
-		(net "IOUT")
-		(layer "F.Cu")
-		(hatch none 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(fill yes
-			(island_removal_mode 1)
-		)
-		(polygon
-			(pts
-				(xy 164.513079 49.129814) (xy 165.220186 49.836921) (xy 165.853553 49.203553) (xy 166 48.85) (xy 166.5 48.477105)
-				(xy 165.5 46.744718) (xy 164.5 48.477105) (xy 165 48.85)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 165.505849 46.757988) (xy 165.510133 46.762272) (xy 166.494799 48.468095) (xy 166.495967 48.476973)
-				(xy 166.491661 48.483323) (xy 166 48.849999) (xy 165.999999 48.850001) (xy 165.854443 49.201402)
-				(xy 165.851907 49.205198) (xy 165.228458 49.828647) (xy 165.220185 49.832074) (xy 165.211912 49.828647)
-				(xy 164.523883 49.140618) (xy 164.520456 49.132345) (xy 164.523883 49.124072) (xy 164.526323 49.122202)
-				(xy 165 48.85) (xy 164.679144 48.610709) (xy 164.508338 48.483323) (xy 164.503755 48.47563) (xy 164.505199 48.468097)
-				(xy 165.489867 46.762271) (xy 165.496971 46.75682)
 			)
 		)
 	)
