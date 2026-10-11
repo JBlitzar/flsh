@@ -1,0 +1,16 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cout,MuRata,GRM31CR71H475KA12L,1,0.1,10.92,Cap: 4.7 µF  Total Derated Cap: 2.6 µF  VDC: 50 V  ESR: 3 mΩ  Package: 1206  
+D1,Diodes Inc.,B240A-13-F,1,0.1,37.34,Type: Schottky  VRRM: 40 V  Io: 2 A  
+Rfbt,Vishay-Dale,CRCW040260K4FKED,1,0.01,3,Resistance: 60.4 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbb,Vishay-Dale,CRCW04022K49FKED,1,0.01,3,Resistance: 2.49 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Ccomp,MuRata,GRM155R71C153KA01D,1,0.01,3,Cap: 15 nF  Total Derated Cap: 15 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0402  
+L1,Coilcraft,XAL6030-182MEB,1,0.65,71.56,L: 1.8 µH  DCR: 9.6 mΩ  IDC: 14 A  
+Css,MuRata,GRM033R71A103KA01D,1,0.01,2.08,Cap: 10 nF  Total Derated Cap: 10 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0201  
+Cin,Taiyo Yuden,MSASE219SB5475MTNA01,1,0.03163,6.75,Cap: 4.7 µF  Total Derated Cap: 2.5 µF  VDC: 16 V  ESR: 11.21 mΩ  Package: 0805  
+Coutx,TDK,CGA3E2X7R1H104K080AA,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 50 V  ESR: 29.6 mΩ  Package: 0603  
+Rt,Vishay-Dale,CRCW04029K76FKED,1,0.01,3,Resistance: 9.76 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Ccomp2,MuRata,GRM1555C1E301JA01D,1,0.02,3,Cap: 300 pF  Total Derated Cap: 300 pF  VDC: 25 V  ESR: 1 mΩ  Package: 0402  
+Cbias,AVX,08053C104KAT2A,1,0.01,6.75,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 25 V  ESR: 280 mΩ  Package: 0805  
+U1,Texas Instruments,XLM5157QRTERQ1,1,0.9,16,
+Rcomp,Vishay-Dale,CRCW0402787RFKED,1,0.01,3,Resistance: 787 Ω  Tolerance: 1.0%  Power: 63 mW  
+Cvcc,Taiyo Yuden,EMK107B7105KA-T,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
