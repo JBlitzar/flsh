@@ -128,6 +128,186 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:BZT52C39WT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52C39 WT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOD-123FL_L2.6-W1.6-LS3.5-RD"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C49023525.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TDSEMIC(拓电半导体)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "BZT52C39 WT"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C49023525"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52C39WT_0_1"
+				(polyline
+					(pts
+						(xy -2.03 2.03) (xy -1.27 1.52) (xy -1.27 -1.52) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:CKG57NX7R1H476MT009W"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -805,6 +985,160 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "easyeda2kicad:RC1206FR-072KL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RC1206FR-072KL"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R1206"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_2KR-2001-1_C133543.html"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO(国巨)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "RC1206FR-072KL"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C133543"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Resistors"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RC1206FR-072KL_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 				(pin input line
@@ -1565,6 +1899,12 @@
 		(uuid "45da418b-0cfa-425b-a462-21b1eb08ed2e")
 	)
 	(junction
+		(at 127 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7187bfe6-f0c9-474c-ae1e-d634c8b9d7dc")
+	)
+	(junction
 		(at 101.6 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1640,6 +1980,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 85.09) (xy 146.05 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d7d622-bac2-421d-a8d3-e00364ecd68b")
+	)
+	(wire
+		(pts
 			(xy 57.15 80.01) (xy 58.42 80.01)
 		)
 		(stroke
@@ -1680,6 +2030,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 85.09) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a98ae34-291f-47b4-993a-cd635342b80c")
+	)
+	(wire
+		(pts
 			(xy 266.7 83.82) (xy 264.16 83.82)
 		)
 		(stroke
@@ -1687,6 +2047,36 @@
 			(type default)
 		)
 		(uuid "85ba0c16-e08b-4577-88bb-b02b74a856b5")
+	)
+	(wire
+		(pts
+			(xy 137.16 49.53) (xy 116.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de73bbb5-522a-4c35-86b1-c03fbb5c1733")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 124.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb04a1f4-e31a-4e0b-884d-00164835b66c")
+	)
+	(wire
+		(pts
+			(xy 135.89 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5866ce-4774-4fe2-ab55-f320d3b3eabc")
 	)
 	(wire
 		(pts
@@ -1700,7 +2090,7 @@
 	)
 	(global_label "VOUT"
 		(shape input)
-		(at 116.84 49.53 0)
+		(at 137.16 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1710,7 +2100,7 @@
 		)
 		(uuid "1489b71a-4a0a-4151-87cb-e3153fd01213")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.5424 49.53 0)
+			(at 144.8624 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,6 +2157,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VOUT"
+		(shape input)
+		(at 127 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b505979b-cc31-459b-a5cf-8f0ad363e63c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.7024 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2050,6 +2464,119 @@
 			(project "flsh"
 				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:RC1206FR-072KL")
+		(at 140.97 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19575a4b-7e1b-49c4-b380-615cbb582495")
+		(property "Reference" "R1"
+			(at 140.97 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2kΩ"
+			(at 140.97 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:R1206"
+			(at 140.97 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_2KR-2001-1_C133543.html"
+			(at 140.97 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO(国巨)"
+			(at 140.97 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC1206FR-072KL"
+			(at 140.97 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C133543"
+			(at 140.97 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "106aa526-0e73-47a9-adec-2446eafd1b2a")
+		)
+		(pin "2"
+			(uuid "d2203211-537e-4ef4-8c43-9c8a25511011")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2688,6 +3215,121 @@
 		)
 	)
 	(symbol
+		(lib_id "easyeda2kicad:BZT52C39WT")
+		(at 127 80.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ad5ed97-96e8-4394-b7f8-e938d9f8e7bb")
+		(property "Reference" "DZ1"
+			(at 130.81 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ZENER"
+			(at 130.81 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOD-123FL_L2.6-W1.6-LS3.5-RD"
+			(at 119.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49023525.pdf"
+			(at 116.84 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDSEMIC(拓电半导体)"
+			(at 114.3 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BZT52C39 WT"
+			(at 111.76 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49023525"
+			(at 109.22 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0279ef22-b1ae-4c6e-b6a8-89859e921ac1")
+		)
+		(pin "2"
+			(uuid "e8bf113d-e761-44d1-978f-29097457e537")
+		)
+		(instances
+			(project "flsh"
+				(path "/08418876-6758-4030-87ef-cfeed83d90aa"
+					(reference "DZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "easyeda2kicad:CL31B105KCHNNNE")
 		(at 80.01 85.09 90)
 		(unit 1)
@@ -2995,7 +3637,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 85.09 90)
+		(at 166.37 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3006,7 +3648,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9694635-d0fc-4a93-b575-cedf5b4c631d")
 		(property "Reference" "#PWR012"
-			(at 140.97 85.09 0)
+			(at 172.72 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3017,7 +3659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 85.0899 90)
+			(at 170.18 85.0899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3670,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 85.09 0)
+			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +3681,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 85.09 0)
+			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +3692,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 85.09 0)
+			(at 166.37 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +3716,7 @@
 	)
 	(symbol
 		(lib_id "easyeda2kicad:JER2512F2R220")
-		(at 129.54 85.09 0)
+		(at 157.48 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3085,7 +3727,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7c8f376-ae4b-4ba1-84c9-045af2951ffb")
 		(property "Reference" "RS1"
-			(at 129.54 78.74 0)
+			(at 157.48 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3095,7 +3737,7 @@
 			)
 		)
 		(property "Value" "JER2512F2R220"
-			(at 129.54 81.28 0)
+			(at 157.48 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3105,7 +3747,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:RES-SMD_L6.4-W3.2-R2512"
-			(at 129.54 92.71 0)
+			(at 157.48 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3116,7 +3758,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49164922.pdf"
-			(at 129.54 95.25 0)
+			(at 157.48 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3127,7 +3769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 85.09 0)
+			(at 157.48 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3138,7 +3780,7 @@
 			)
 		)
 		(property "Manufacturer" "JIERR(捷而瑞)"
-			(at 129.54 97.79 0)
+			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3149,7 +3791,7 @@
 			)
 		)
 		(property "MPN" "JER2512F2R220"
-			(at 129.54 100.33 0)
+			(at 157.48 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +3802,7 @@
 			)
 		)
 		(property "LCSC Part" "C49164922"
-			(at 129.54 102.87 0)
+			(at 157.48 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
