@@ -91,17 +91,13 @@ This is a ballpark, YMMV based on sourcing, promotions, discounts
 | C3, C4 | C_1206_3216Metric | 2 | 1uF | C13832 |
 | D1 | D_SMA | 1 | SS38 | C64999 |
 | DZ1 | D_SOD-123F | 1 | ZENER (BZT52C39, 39V) | C49023525 |
-| H1 | MountingHole_3.2mm_M3 | 1 | MountingHole |  |
 | L1 | IND-SMD_L13.8-W12.6_H6.5 | 1 | YSPI1365-470M (47uH) | C497913 |
 | R1 | R_1206_3216Metric | 1 | 2k | C133543 |
 | RS1 | R_2512_6332Metric | 1 | JER2512F2R220 (0.22R) | C49164922 |
-| TP1, TP2, TP3, TP4, TP5_EN1 | TestPoint_Pad_D4.0mm | 5 | TestPoint |  |
 | U2 | TO-263-5_L10.2-W9.9-P1.70-LS14.4-TL | 1 | XL6006E1 | C73346 |
 
 ### flsh led
 
 | Designator | Footprint | Quantity | Value | LCSC Part # |
 | --- | --- | --- | --- | --- |
-| C1, C2, C3, C4, C5, C6, C7, C8 | C_1206_3216Metric | 8 | C_US (DNP) |  |
 | LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9 | LED-SMD_3P-L3.7-W3.7_GW-PUSTA1.PM-NAPD-XX510-1-1050-R18 | 9 | GW PUSTA1.PM-PBQB-XX52-1-1050-R18 | C46046287 |
-| TP1, TP2 | TestPoint_Pad_D1.0mm | 2 | TestPoint |  |
