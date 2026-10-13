@@ -44,7 +44,7 @@ As you can tell, this is, for the moment, mostly the bones of a flashlight (ie t
 [View on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FJBlitzar%2Fflsh%2Ftree%2Fmain%2FPCB%2Fflsh) | [View iBOM](https://htmlpreview.github.io/?https://github.com/JBlitzar/flsh/blob/main/PCB/flsh/bom/ibom.html) (or open `PCB/flsh/bom/ibom.html` locally)
 
 
-![flsh boost PCB](doc/flsh_boost_pcb.svg)
+<img src="doc/flsh_boost_pcb.svg" width="100%" alt="flsh boost PCB">
 
 
 ![flsh boost 3D render](doc/flsh_boost_3d_top.png)
@@ -54,7 +54,7 @@ As you can tell, this is, for the moment, mostly the bones of a flashlight (ie t
 [View on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FJBlitzar%2Fflsh%2Ftree%2Fmain%2FPCB%2Fflsh)
 
 
-![flsh led PCB](doc/flsh_led_pcb.svg)
+<img src="doc/flsh_led_pcb.svg" width="100%" alt="flsh led PCB">
 
 
 ![flsh led 3D render](doc/flsh_led_3d_top.png)
