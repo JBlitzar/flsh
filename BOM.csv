@@ -1,0 +1,8 @@
+Item,Link,Extended Cost,Notes
+10x LEDs (MOQ),https://www.lcsc.com/product-detail/C46046287.html,17.15,
+LED PCB,N/A,2.44,
+Boost components,N/A,18,See fabrication BOM in README for C-numbers
+LCSC shipping,N/A,8,
+JLC shipping,N/A,3.3,
+,,,
+Total,,48.89,
