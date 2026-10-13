@@ -6,7 +6,7 @@ A flashlight with the brightness of 83 iphones.
 
 Some features:
  - 9x OSRAM GW PUSTA1.PM-PBQB-XX52-1-1050-R18 for ~5000 lm nominal.
- - XL6006 driver board designed to boost a 2x21700 pack up to the required 28v\@1.1A
+ - XL6006 driver board designed to boost a 2x21700 pack up to the required 28v​@1.1A
 
 
 I made this because I thought it would be pretty cool. Also I got to think about designing power circuitry. I looked at a lot of different ICs before settling on the XL6006. In the end, TI and Analog both were beaten out by Shanghai Xinlong Semiconductor Technology Co., Ltd, so there you go! While the XL6006 gets a bad rap on cheap aliexpress boost boards, the chip itself will work fine if you have a good inductor etc. And it only requires like five passives to work! I evaluated a lot of different designs, see [planning](planning/). 
