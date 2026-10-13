@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "flsh_batt")(type "KiCad")(uri "${KIPRJMOD}/flsh_batt.pretty")(options "")(descr "Keystone 1121 21700 holder"))
+)
