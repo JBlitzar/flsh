@@ -804,7 +804,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:RES-SMD_L6.4-W3.2-R2512"
+			(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1305,7 +1305,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:SMA_L4.4-W2.8-LS5.4-RD"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3822,7 +3822,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-SMD_L6.4-W3.2-R2512"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 158.75 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4050,7 +4050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:SMA_L4.4-W2.8-LS5.4-RD"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 109.22 57.15 0)
 			(hide yes)
 			(show_name no)
