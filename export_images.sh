@@ -174,6 +174,7 @@ PYEOF
     --quality high \
     --width 2000 \
     --height 2000 \
+    --zoom 0.85 \
     -o "$OUT_DIR/${NAME}_3d_top.png" \
     "$PCB"
   echo "  -> doc/${NAME}_3d_top.png"

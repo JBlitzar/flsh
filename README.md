@@ -35,7 +35,7 @@ As you can tell, this is, for the moment, mostly the bones of a flashlight (ie t
 
 [View on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FJBlitzar%2Fflsh%2Ftree%2Fmain%2FPCB%2Fflsh)
 
-![flsh led schematic](doc/flsh_led_schematic.svg)
+![](doc/flsh_led_schematic.svg)
 
 ## PCBs
 
@@ -46,8 +46,8 @@ As you can tell, this is, for the moment, mostly the bones of a flashlight (ie t
 
 <table>
   <tr>
-    <td width="50%"><img src="doc/flsh_boost_pcb.svg" width="100%" alt="flsh boost PCB"></td>
-    <td width="50%"><img src="doc/flsh_boost_3d_top.png" width="100%" alt="flsh boost 3D render"></td>
+    <td width="50%"><img src="doc/flsh_boost_pcb.svg" width="100%"></td>
+    <td width="50%"><img src="doc/flsh_boost_3d_top.png" width="100%"></td>
   </tr>
 </table>
 
@@ -58,8 +58,8 @@ As you can tell, this is, for the moment, mostly the bones of a flashlight (ie t
 
 <table>
   <tr>
-    <td width="50%"><img src="doc/flsh_led_pcb.svg" width="100%" alt="flsh led PCB"></td>
-    <td width="50%"><img src="doc/flsh_led_3d_top.png" width="100%" alt="flsh led 3D render"></td>
+    <td width="50%"><img src="doc/flsh_led_pcb.svg" width="100%"></td>
+    <td width="50%"><img src="doc/flsh_led_3d_top.png" width="100%"></td>
   </tr>
 </table>
 
