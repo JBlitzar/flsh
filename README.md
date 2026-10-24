@@ -13,7 +13,7 @@ I made this because I thought it would be pretty cool. Also I got to think about
 
 In terms of the LEDs, I pretty much went on to LCSC and clicked "sort high to low" on lumens. But really, I thought this was more reasonable than most CoB solutions. 
 
-You might be wondering why they are in series. This is to prevent thermal runaway, where one LED uses slightly more current, which causes it to get hotter, which causes it to hog current slightly more, etc in a positive feedback loop. You can use ballast resistors. I just wired them in parallel and accepted the steep boost ratio.
+You might be wondering why they are in series. This is to prevent thermal runaway, where one LED uses slightly more current, which causes it to get hotter, which causes it to hog current slightly more, etc in a positive feedback loop. You can use ballast resistors. I just wired them in series and accepted the steep boost ratio.
 
 PWM dimming? hahaha you can source and solder a different sense resistor to get a different brightness.
 
