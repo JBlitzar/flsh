@@ -5839,14 +5839,6 @@
 		(uuid "78e977f2-4c15-4359-b2ec-03bbf4bea84d")
 	)
 	(segment
-		(start 58 36)
-		(end 58 34.95)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED9-A)")
-		(uuid "8580e87b-62f7-4b48-a728-f887243a587c")
-	)
-	(segment
 		(start 59.475 34.525)
 		(end 58 36)
 		(width 1)
@@ -5887,14 +5879,6 @@
 		(uuid "363e3fa9-5ca8-481a-8f07-91e8167ee851")
 	)
 	(segment
-		(start 58 41)
-		(end 58 40.975)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED8-A)")
-		(uuid "6d904366-563b-4f46-ba6b-3276ed1d94bb")
-	)
-	(segment
 		(start 58 39.95)
 		(end 56.4 38.35)
 		(width 1)
@@ -5917,14 +5901,6 @@
 		(layer "F.Cu")
 		(net "Net-(LED8-A)")
 		(uuid "c6112c1c-643e-4dd9-95bc-1da0f3d57b77")
-	)
-	(segment
-		(start 58 41)
-		(end 58 39.95)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED8-A)")
-		(uuid "e0a8a2eb-c3f5-41fe-9945-3d5cd0658fe5")
 	)
 	(segment
 		(start 48 31)
@@ -5975,14 +5951,6 @@
 		(uuid "697ca2ad-ba24-4fa0-80bc-1608c5a6d63a")
 	)
 	(segment
-		(start 53 31)
-		(end 53 32.05)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED3-A)")
-		(uuid "96011ab5-bed9-4a14-a129-484e30056dc0")
-	)
-	(segment
 		(start 54.52 31)
 		(end 54.52 27.545)
 		(width 1)
@@ -5997,14 +5965,6 @@
 		(layer "F.Cu")
 		(net "Net-(LED3-A)")
 		(uuid "9df576f3-2c7f-4499-a163-8a57e29534d8")
-	)
-	(segment
-		(start 54.52 27.545)
-		(end 54.475 27.5)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED3-A)")
-		(uuid "b4835fb8-c0b8-41d6-8db3-b34556867822")
 	)
 	(segment
 		(start 54.475 44.5)
@@ -6053,14 +6013,6 @@
 		(layer "F.Cu")
 		(net "Net-(LED5-A)")
 		(uuid "f076fa6e-eae2-43aa-b738-0acb576789a2")
-	)
-	(segment
-		(start 48 36)
-		(end 48 34.95)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED1-A)")
-		(uuid "174e908f-5a90-43e4-90a0-8455f90396bc")
 	)
 	(segment
 		(start 46.5 27.5)
@@ -6175,14 +6127,6 @@
 		(uuid "ad634005-632a-47f6-9950-ec7b627ed847")
 	)
 	(segment
-		(start 48 41)
-		(end 48 39.95)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED7-A)")
-		(uuid "baab9ca7-7782-45b0-82be-57f647befa7b")
-	)
-	(segment
 		(start 46.4 42)
 		(end 46.4 41)
 		(width 1)
@@ -6245,14 +6189,6 @@
 		(layer "F.Cu")
 		(net "Net-(LED4-A)")
 		(uuid "70761786-aacd-40f5-944a-a28cc55a8fda")
-	)
-	(segment
-		(start 53 37.05)
-		(end 53 36)
-		(width 1)
-		(layer "F.Cu")
-		(net "Net-(LED4-A)")
-		(uuid "911eff94-4a25-45d7-b21c-aeed4260d776")
 	)
 	(segment
 		(start 51.4 44.375)
