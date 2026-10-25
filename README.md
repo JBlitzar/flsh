@@ -27,6 +27,8 @@ As you can tell, this is, for the moment, mostly the bones of a flashlight (ie t
 
 ## Schematics
 
+[Interactive unified viewer](https://hurt-xi.vercel.app/?repo=https%3A%2F%2Fgithub.com%2Fjblitzar%2Fflsh)
+
 ### flsh boost
 
 [View on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2FJBlitzar%2Fflsh%2Ftree%2Fmain%2FPCB%2Fflsh)
