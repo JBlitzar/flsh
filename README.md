@@ -2,6 +2,8 @@
 
 ![](blend/render2.png)
 
+![](doc/led_irl.png)
+
 A flashlight with the brightness of 83 iphones.
 
 Some features:
